@@ -14,8 +14,8 @@ All of the probabilites used in the piece are outlined in the `master.xls` file.
 
 ## Movement VI. Pitch-rhythm
 
-Due to the extra notes created by certain rhythms, a Markov process with transition matrix in master.xls (sheet pr-tr) was used.
-This is implemented by pr-tr.py
+Due to the extra notes created by certain rhythms, a Markov process with transition matrix in `master.xls` (sheet pr-tr) was used.
+This is implemented by `pr-tr.py`.
 
 ## Movement VII. Markov
 
