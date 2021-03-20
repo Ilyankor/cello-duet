@@ -6,5 +6,5 @@ M = np.random.rand(24,24)
 #normalize the matrix rows, sum = 1
 S = M/M.sum(axis=1)[:,None]
 
-#save the matrix as a file
+#save the matrix as a csv file
 np.savetxt("matrix.csv", S, delimiter=",")
