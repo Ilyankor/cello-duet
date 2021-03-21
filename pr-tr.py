@@ -7,11 +7,11 @@ from numpy.linalg import matrix_power
 start = input("First pitch: ")
 num = input("Total number of notes: ")
 
-#obtain the transition matrx
+#import the transition matrx
 df = read_excel("master.xls", sheet_name="pr-tr", header=None)
 tr = df.to_numpy()
 
-#define the initial vector v_i
+#define the initial vectors
 if start == "D":
     v0 = ([1, 0, 0, 0, 0])
 elif start == "E":
