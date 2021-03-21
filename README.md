@@ -20,7 +20,7 @@ Twenty-four (24) different rhythms were created and outlined in `rhythms.svg`. T
 
 The D pentatonic pitch collection was chosen (D, E, F#, A, B). The respective probabilities are given in `master.xls`, worksheet `pr-p`.  The twenty-four rhythms are again utilized and the respective probabilites are given in `master.xls`, worksheet `pr-r`. Executing `pr-pr.py` outputs 75 pitch and rhythm choices with the given probabilities. The results are displayed in `results.xlsx`. 
 
-To avoid repitition due to the extra notes created by certain rhythms, a Markov process with transition matrix in `master.xls`, worksheet `pr-tr` was used to generate notes based on the given one. This is implemented in `pr-tr.py`, which asks for the starting note (F = F#) and the total number of pitches in the rhythm (2, 3, or 4) .
+To avoid repitition due to the extra notes created by certain rhythms, a Markov process with transition matrix in `master.xls`, worksheet `pr-tr` was used to generate notes based on the given one. This is implemented in `pr-tr.py`, which asks for the starting note (F = F#) and the total number of pitches in the rhythm (2, 3, or 4).
 
 ## Movement VII. Markov
 
