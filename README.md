@@ -39,3 +39,4 @@ This is implemented in `pr-tr.py`, which asks for the starting note (F = F#) and
 
 The first state is the original pitch collection.
 Transposition and inversion, and higher order markov process is used.
+Absorbing markov chain, not randomly generated transition matrix.
