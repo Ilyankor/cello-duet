@@ -7,8 +7,7 @@ df = read_excel("master.xls", sheet_name="m-tr1", header=None)
 tr = df.to_numpy()
 
 #create random initial vector
-v = np.random.rand(24)
-v0 = v/np.sum(v)
+v0 = [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 #create 24 options for T, TnI
 transform = np.arange(24)
