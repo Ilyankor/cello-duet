@@ -8,6 +8,10 @@ This is an experimental piece for two cellos with certain movements based on pro
 
 I intend on creating a Jupyter notebook to consolidate all of the experiments in the future.
 
+## Dependencies
+
+Jupyter, music21, numpy
+
 ## Movement II. Pitch
 
 The B-flat pentatonic pitch collection was chosen (Bb, C, D, F, G). 
